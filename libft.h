@@ -1,12 +1,12 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <string.h>
-# include <stdio.h>
 # include <stdlib.h>
-# include <stddef.h>
 # include <unistd.h>
 // #define malloc(size) (NULL)
+# include <string.h>
+# include <stdio.h>
+# include <stddef.h>
 
 int	ft_atoi(char *str);
 void			ft_bzero(void *s, size_t n);

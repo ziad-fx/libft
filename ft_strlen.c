@@ -8,9 +8,9 @@ size_t ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-int main()
-{
-	char *tmp = "zaid";
-	printf("%zu", ft_strlen(tmp));
-	return (0);
-}
+// int main()
+// {
+// 	char *tmp = "zaid";
+// 	printf("%zu", ft_strlen(tmp));
+// 	return (0);
+// }

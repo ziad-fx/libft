@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 16:23:53 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/05 15:08:42 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/07 20:41:21 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char	*dst;
 	unsigned char	*src_cpy;
 	size_t			i;
-
+	
+	if (dest == src)
+		return (dest);
 	if (!dest && !src)
 		return (NULL);
 	dst = (unsigned char *)dest;
@@ -30,14 +32,16 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// int main()
-// {
-// 	char *dst;
-// 	char *test;
-// 	char src[] = "abcdef";
-// 	test = ft_memcpy(dst, src, sizeof(src));
-// 	printf("dest : %s\n", dst);
-// 	printf("test : %s\n", test);
-
-// 	return (0);
-// }
+int main()
+{
+	// char *src= "ABC";
+	// char *dst = "ABC";
+	// char *s = "abc";
+	// char *s1 = "abcf";
+	// printf("%p \n%p\n", s , s1);
+	// printf("%d", s == s1);
+	// printf("dest : %s\n", memcpy("ab\0c", "ab\0c", 6));
+	 ft_memcpy("ab\0c","ab\0c", 5);
+	printf("test : %s\n");
+	return (0);
+}

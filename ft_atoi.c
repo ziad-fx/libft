@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 17:51:07 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/04 19:09:24 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/06 20:00:55 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,9 +46,9 @@ int	ft_atoi(char *str)
 	return (sign * res);
 }
 
-// int main()
-// {
-// 	char tmp[] = "12";
-// 	printf("%d\n", ft_atoi(tmp));
-// 	printf("%d\n", atoi(tmp));
-// }
+int main()
+{
+	char tmp[] = "";
+	printf("%d\n", ft_atoi(tmp));
+	printf("%d\n", atoi(tmp));
+}

@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 16:26:53 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/04 20:30:24 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:09:47 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,19 +35,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-int	main()
-{
-	// char src[20] = "ziad ahansal";
-	// printf("Custom function : %s\n", ft_memmove(src + 4, src, 8));
-
-	// char src1[20] = "ziad ahansal";
-	// printf("System function : %s\n", memmove(src1 + 4, src1, 8));
-
-	// char src2[25] = "ziad";
-	// char dst[25] = "ahansal";
-	// printf("Test case 2: %s\n", ft_memmove(dst, src2, 8));
-	char dst[33] = "ayman chorids is here";
-	char *res = memmove(dst+2, dst, 25);
-	printf("%s\n", res);
-	// return 0;
-}
+// int main()
+// {
+// 	pritnf(0);
+// }

@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 20:18:26 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/04 12:27:05 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/07 10:37:24 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,5 @@ void	ft_putchar_fd(char c, int fd)
 int main()
 {
 	char c = 'A';
-	ft_putchar_fd(c, 1);
-	
+	ft_putchar_fd(c, -1);
 }

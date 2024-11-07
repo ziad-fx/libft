@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 20:04:27 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/02 14:58:11 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/06 16:38:32 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ char *ft_strtrim(const char *s, char *set)
 	
 	if (!s || !set)
 		return (NULL);
-
 	while (s[start] && ft_checker(s[start], set))
 		start++;
 	end = start;
@@ -42,30 +41,23 @@ char *ft_strtrim(const char *s, char *set)
 	end--;
 	while (end >= start && ft_checker(s[end], set))
 		end--;
-
 	tab = (char *)malloc((end - start + 2));
 	if (!tab)
 		return(NULL);
-
 	while (end >= start)
-	{
-		tab[i] = s[start];
-		i++;
-		start++;
-	}
+
+		tab[i++] = s[start++];
 	tab[i] = 0;
 	return (tab);
 }
-// int main()
-// {
+int main()
+{
 	
-// 	char src[] = "ziyad";
-// 	char set[] = "abab";
-// 	char *res = ft_strtrim(src, set);
-// 	printf("s[%s]", res);
-// }
-	
-	
+	char src[] = "bziad";
+	char set[] = "ab";
+	char *res = ft_strtrim(src, set);
+	printf("%s", res);
+}
 	
 	
 

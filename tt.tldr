@@ -9173,82 +9173,6 @@
 			"typeName": "shape"
 		},
 		{
-			"id": "pointer:pointer",
-			"typeName": "pointer",
-			"x": -406.72714397715873,
-			"y": 3248.9688827007176,
-			"lastActivityTimestamp": 1730793747997,
-			"meta": {}
-		},
-		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
-			},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "cross",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 915.97216796875,
-				"h": 569.4443969726562
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 2.880000114440918,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
-			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
-		},
-		{
-			"editingShapeId": null,
-			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
-			"erasingShapeIds": [],
-			"hintingShapeIds": [],
-			"focusedGroupId": null,
-			"meta": {},
-			"id": "instance_page_state:page:page",
-			"pageId": "page:page",
-			"typeName": "instance_page_state"
-		},
-		{
-			"x": 697.6706045710775,
-			"y": -2358.0549144158854,
-			"z": 0.38521855808254496,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
-		},
-		{
 			"x": -587.7656154543525,
 			"y": 2919.9945232872215,
 			"rotation": 0,
@@ -38906,6 +38830,274 @@
 			},
 			"parentId": "page:page",
 			"index": "b4Z6Uw",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -282.49278442449645,
+			"y": 5844.0326270841515,
+			"lastActivityTimestamp": 1731000071196,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "black"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 912.4999389648438,
+				"h": 886.111083984375
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 2.880000114440918,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 2142.2827054013887,
+			"y": -1412.2150696172723,
+			"z": 0.13310521080905635,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -1696.87355597435,
+			"y": 3600.9096137529177,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zB05vSy0EAr3P4Ky8q3UN",
+			"type": "geo",
+			"props": {
+				"w": 4880.847912221634,
+				"h": 13612.257211529504,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b4a8Xn",
+			"typeName": "shape"
+		},
+		{
+			"x": -1252.1632412310328,
+			"y": 3797.9955891810696,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:V82XywOthEkhxz2vWl8VK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1317.2553728127039,
+				"text": " = it used because its designed for size and counts . it s a unsigned integer type that adjusts in size depending on the system 32 or 64, since the string  lenths cane be negative.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 3.523704425119037
+			},
+			"parentId": "page:page",
+			"index": "b4b3hC",
+			"typeName": "shape"
+		},
+		{
+			"x": -1686.5817852965722,
+			"y": 3823.3684373231763,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:bM2LH7ZvypUTyKkW8psLP",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 236.65168750676025,
+				"text": "size_t",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 4.822477346595447
+			},
+			"parentId": "page:page",
+			"index": "b4c8nE",
+			"typeName": "shape"
+		},
+		{
+			"x": -1662.7780318129205,
+			"y": 4323.94006950769,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:niupeV9bxWuS0HF6YQcL0",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 236.65168750676025,
+				"text": "NULL",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 4.822477346595447
+			},
+			"parentId": "page:page",
+			"index": "b4d1cg",
+			"typeName": "shape"
+		},
+		{
+			"x": -1313.5882960681092,
+			"y": 4295.87714828757,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:v-1d6UN3yA0tFqnC82Ud9",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1317.2553728127039,
+				"text": "in c represent a null popinter, meaning it points to nothing or nowhere, it used to signify the absence \nof a valid memory addresss of a pointer.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 3.523704425119037
+			},
+			"parentId": "page:page",
+			"index": "b4e0nj",
+			"typeName": "shape"
+		},
+		{
+			"x": -1656.7599446434788,
+			"y": 4854.837099783868,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:M36GqV4fYHkawdSTXyUsL",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 255.3560733628615,
+				"text": "cast to unsigned char *",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 4.535082558986738
+			},
+			"parentId": "page:page",
+			"index": "b4de2d",
+			"typeName": "shape"
+		},
+		{
+			"x": -627.5762288449951,
+			"y": 4880.31197490285,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:q6M2lQb9OjL0p0lMeDu4M",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1317.2553728127039,
+				"text": "we cast to for byts _ by _ byte access so we cana work on each byte of the memory\n individually . this is essential becuase memcpy operates at the  level of raw memory",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 3.523704425119037
+			},
+			"parentId": "page:page",
+			"index": "b4f0sW",
+			"typeName": "shape"
+		},
+		{
+			"x": -724.4216109427102,
+			"y": 5219.556258506008,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WBKBjp3COfqo8LQdoFh0Z",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1317.2553728127039,
+				"text": "only positive vakue  : memory address and byte value are non negative, so an unsigned \ntype is perfect to ensures that we work only with positive valuefrom 0 to 255, this avoid\nany potential issues with sign bits",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 3.523704425119037
+			},
+			"parentId": "page:page",
+			"index": "b4g3lp",
 			"typeName": "shape"
 		}
 	]
