@@ -1,36 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/23 19:09:27 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/12 10:05:35 by zyahansa         ###   ########.fr       */
+/*   Created: 2024/11/12 17:17:02 by zyahansa          #+#    #+#             */
+/*   Updated: 2024/11/12 17:18:44 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strchr(const char *s, int c)
+int *ft_lstsize(t_list *lst)
 {
-	char target = (char)c;
-	int i = 0;
-
-	while(s[i])
-	{
-		if(s[i] == target)
-			return ((char *)&s[i]);
-		i++;
-	}
-	if (target == '\0')
-        return ((char *)&s[i]);
-	return (NULL);
+    t_list *tmp;
+    *tmp = *lst;
+    whiel()
+    {
+        
+    }
+    
 }
-// int main()
-// {
-// 	char *tmp = "onj\0our";
-// 	printf("%s\n",strchr(tmp, 111));
-// 	printf("%s\n",ft_strchr(tmp, 111));
-	
-// }

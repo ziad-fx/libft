@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 14:44:46 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/04 19:16:56 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/12 16:21:46 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,6 +80,8 @@ char	**ft_split(const char *str, char c)
 
 	i = 0;
 	word_index = 0;
+	if (!str)
+		return (NULL);
 	tab = malloc(sizeof(char *) * (count_words(str, c) + 1));
 	if (!tab)
 		return (NULL);
@@ -98,26 +100,42 @@ char	**ft_split(const char *str, char c)
 	tab[word_index] = NULL;
 	return (tab);
 }
-
+// void f(void){
+// 	system("leaks a.out");
+// }
 int	main(void)
 {
-	char	*str = " zed aha";
-	char	set = ' ';
-	char	**str2;
-	int		i;
+	// atexit(f);
+	char *str = "";
+	char sep = ' ';
+	char **tab = ft_split(str, sep);
+	
+	char **tmp = tab;
+	while(*tab)
+	{
+		printf("----->[%s]\n", *tab);
+		free(*tab);
+		tab++;
+	}
+	free(tmp);
 
-	str2 = ft_split(str, set);
-	if (!str2)
-	{
-		printf("Memory allocation failed\n");
-		return (1);
-	}
-	i = 0;
-	while (str2[i])
-	{
-		printf("--> %s\n", str2[i]);
-		free(str2[i++]);
-	}
-	free(str2);
-	return (0);
+	// char    *str = "zed aha";
+    // char    set = ' ';
+    // char    **str2;
+    // int        i;
+
+    // str2 = ft_split(str, set);
+    // // if (!str2)
+    // // {
+    // //     printf("Memory allocation failed\n");
+    // //     return (1);
+    // // }
+    // i = 0;
+    // while (str2[i])
+    // {
+    //     printf("--> %s\n", str2[i]);
+    //     free(str2[i++]);
+    // }
+    // free(str2);
+    // return (0);
 }

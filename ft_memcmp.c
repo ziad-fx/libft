@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 15:49:54 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/07 12:12:03 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/09 15:16:21 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,10 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-
 // int main()
 // {
-// 	printf("%d\n", memcmp("sal\200ut", "sal\200ut", 8));
-// 	printf("%d\n", ft_memcmp("sal\200ut", "sal\200ut", 8));
+// 	char *s1 = "hello";
+// 	char *s2 = "hel";
+// 	printf("%d\n", memcmp(s1, s2, 8));
+// 	printf("%d\n", ft_memcmp(s1, s2, 8));
 // }
-

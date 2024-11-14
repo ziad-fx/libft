@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 20:32:20 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/10/30 20:38:14 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/10 19:40:14 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,13 @@
 void ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int i = 0;
+	
+	if(!s || !f)
+		return ;
 	while (s[i])
 	{
 		(*f)(i,&s[i]);
 		i++;
 	}
 }
+

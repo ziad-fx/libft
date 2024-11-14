@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 20:31:28 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/05 08:41:32 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/12 10:05:24 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,10 @@ size_t ft_strlcat(char *dest, const char *src, size_t dest_size)
 
     if (dest_size == 0)
         return (ft_strlen(src));
+
     len_dest = ft_strlen(dest);
     len_src = ft_strlen(src);
+
     if (len_dest >= dest_size)
         return (len_src + dest_size);
 
@@ -40,9 +42,15 @@ size_t ft_strlcat(char *dest, const char *src, size_t dest_size)
 
 //  int main()
 // {
-// 	char dest[12] = "ahansal";
-// 	char src[] = "ziad";
-// 	//printf("%zu\n", ft_strlcat(NULL,"NULL", 4));
-//     printf("%zu\n", ft_strlcat("NU","ziad", 0));
-// 	printf("%s", dest);
+// 	// char dest[12] = "ahansal";
+// 	// char src[] = "ziad";
+// 	// printf("%zu\n", ft_strlcat(NULL,"NULL", 0));
+//     //printf("%zu\n", ft_strlcat("NU","ziad", 0));
+// 	// printf("%s", dest);
+//     char src[4] = "abcd";
+//     char dst[11] = "abcd";
+//     printf("%zu\n",ft_strlcat(dst,src,3)); 
+//     char src1[4] = "abcd";
+//     char dst1[11] = "abcd";
+//     printf("%zu\n",strlcat(dst1,src1,3)); 
 // }

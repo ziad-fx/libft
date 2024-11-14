@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 11:10:50 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/02 15:14:59 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/09 15:22:26 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ unsigned int	ft_strlcpy(char *dest, char *src, size_t size)
 // {
 // 	char dst[20];
 // 	char *src = "lorem ipsum dolor sit amet";
-// 	printf("%u\n", ft_strlcpy(dst, src, 0));
+// 	//printf("%u\n", ft_strlcpy(dst, src, 0));
 // 	char dst1[20];
 // 	char *src1 = "lorem ipsum dolor sit amet";
-// 	printf("%lu\n", strlcpy(dst1, src1, 0));
+// 	printf("%\n", strlcpy(NULL, src1, 0));
 // }

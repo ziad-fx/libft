@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 20:04:27 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/06 16:38:32 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/12 12:34:37 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,14 +50,14 @@ char *ft_strtrim(const char *s, char *set)
 	tab[i] = 0;
 	return (tab);
 }
-int main()
-{
+// int main()
+// {
 	
-	char src[] = "bziad";
-	char set[] = "ab";
-	char *res = ft_strtrim(src, set);
-	printf("%s", res);
-}
+// 	char src[] = "bziad";
+// 	char set[] = "ab";
+// 	char *res = ft_strtrim(src, set);
+// 	printf("%s", res);
+// }
 	
 	
 

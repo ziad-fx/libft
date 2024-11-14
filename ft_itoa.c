@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 14:54:36 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/06 20:07:27 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/12 10:21:10 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,9 +62,9 @@ char	*ft_itoa(int n)
 	return (res);
 }
 
-int main()
-{
-	int a = 013323;
-	printf("%d", a);
-}
+// int main()
+// {
+// 	int a = 013323;
+// 	printf("%d", a);
+// }
 
