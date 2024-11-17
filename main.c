@@ -6,25 +6,64 @@
 #include <stdlib.h>
 
 
+
 int main()
 {
-	printf(" mine = [%d] ; sys [%d] \n ", ft_atoi("0"),atoi("0"));
-	printf(" mine  = [%d ; sys [%d] ]\n", ft_atoi("-100000000"),atoi("-100000000"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("18446744073709551615UL"),atoi("18446744073709551615UL"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("4294967295U"),atoi("4294967295U"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("4294967296U"),atoi("4294967296U"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("-4294967295U"),atoi("-4294967295U"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("AboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAbout"),atoi("AboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAbout"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi(""),atoi(""));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("\0\0\0\0\0\0\0"),atoi("\0\0\0\0\0\0\0"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("\012313"),atoi("\012313"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("--11"),atoi("--11"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("++11"),atoi("++11"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("+-14"),atoi("+-14"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("-+14"),atoi("--14"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("-18446744073709551616"),atoi("-18446744073709551616"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("18446744073709551615"),atoi("18446744073709551615"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("-1844674407370955161518446744073709551615"),atoi("-1844674407370955161518446744073709551615"));
-	printf(" mine = [%d] ; sys [%d] \n", ft_atoi("18446744073709551614"),atoi("18446744073709551614"));
-	
+	// int a = 2147483647;
+	// printf("%d", a +  21474 );
+	size_t c = write(0, "aav", 3);
+	printf("\n");
+	printf("%zu", c);
 }
+// int main()
+// {
+// 	char src[] = "ziad ahansal zed";
+// 	char **tab = ft_split(src, ' ');
+	// int i = 0;
+	// while (tab[i])
+	// {
+	// 	printf("%s\n", tab[i]);
+	// 	free(tab[i]);
+	// 	i++;
+	// }
+	// free(tab);
+// 	char **tmp = tab;
+// 	while (*tab)
+// 	{
+// 		printf("%s\n", *tab);
+// 		free(*tab);
+// 		tab++;
+// 	}
+// 	free(tmp);
+
+	
+// }
+
+// void fer(unsigned int i, char *c)
+// 	{
+// 		if(*c >= 'a' && *c <= 'z')
+// 		{
+// 			*c-=32;
+// 		}
+// 	}
+// int main()
+// {
+
+
+
+// 	char str[] = "ziad ahansal";
+// 	ft_striteri(str, fer);	
+// 	printf("%s", str);
+// }
+// char f(unsigned int i, char c)
+// {
+// 	if(c >= 'a' && c<= 'z')
+// 		c-= 32;
+// 	return (c);
+// }
+// int main()
+// {
+// 	char strp[] = "ziad ahansal";
+// 	char *tab = ft_strmapi(strp, &f);
+// 	printf("%s", tab);
+// }

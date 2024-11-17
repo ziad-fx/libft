@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
+/*   ft_lstadd_front_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 14:50:24 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/14 11:02:47 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/16 21:43:15 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ void ft_lstadd_front(t_list **alst, t_list *new)
     new->next = *alst;
     *alst = new;
 }
-// int main()
-// {
+int main()
+{
 //     t_list *new = ft_lstnew("ziad +");
 //     t_list *element = ft_lstnew(" zineb");
 //     t_list *element1 = ft_lstnew(" = ❤️");
@@ -36,5 +36,5 @@ void ft_lstadd_front(t_list **alst, t_list *new)
 //     printf("%s", head->content);
 //        head = head->next; 
 //     }
-    
-// }
+
+}

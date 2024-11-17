@@ -10,7 +10,13 @@ size_t ft_strlen(const char *str)
 }
 // int main()
 // {
-// 	char *tmp = "zaid";
-// 	printf("%zu", ft_strlen(tmp));
-// 	return (0);
+// 	// char *tmp = "zaid";
+// 	// printf("%zu", ft_strlen(tmp));
+// 	// return (0);
+// 	int a = 6;
+// 	char c = 'c';
+// 	int *p;
+// 	// p =&a;
+// 	p = &c;
+// 	printf("%d", &p);
 // }

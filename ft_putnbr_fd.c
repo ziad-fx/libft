@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 20:38:59 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/01 22:40:56 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/16 16:41:06 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
+	if (fd < 0)
+		return ;
 	if (n == -2147483648)
 		write(fd, "-2147483648", 11);
 	else if (n < 0)
@@ -36,13 +38,3 @@ void	ft_putnbr_fd(int n, int fd)
 		}
 	}
 }
-
-/*
-// Uncomment to test ft_putnbr_fd
-
-// int	main()
-// {
-// 	ft_putnbr_fd(255, 1); // Expected output: "255" on stdout
-// 	return (0);
-// }
-*/

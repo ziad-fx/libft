@@ -1,4 +1,4 @@
-sstatic int	count_words(const char *s, char c)
+static int	count_words(const char *s, char c)
 {
 	int	count;
 	int	in_word;

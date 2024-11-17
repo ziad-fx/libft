@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 15:40:12 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/07 20:23:37 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/16 12:55:45 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	tab[i] = '\0';
 	return (tab);
 }
+
 // #include <stdio.h>
 
 // int	main(void)
@@ -61,4 +62,3 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 // 	free(substr4);
 // 	return (0);
 // }
-

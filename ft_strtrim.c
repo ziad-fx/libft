@@ -6,33 +6,36 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 20:04:27 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/12 12:34:37 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/16 18:44:49 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_checker(char s, char *set)
+int	ft_checker(char s, char *set)
 {
-	int i = 0;
-	while(set[i])
+	int	i;
+
+	i = 0;
+	while (set[i])
 	{
-		if(set[i] == s)
+		if (set[i] == s)
 			return (1);
 		i++;
 	}
 	return (0);
 }
 
-char *ft_strtrim(const char *s, char *set)
+char	*ft_strtrim(const char *s, char *set)
 {
-	int start = 0;
-	int end = 0;
-	char *tab;
-	int i  = 0;
-	
+	int		start;
+	int		end;
+	char	*tab;
+	int		i;
+
 	if (!s || !set)
 		return (NULL);
+	start = 0;
 	while (s[start] && ft_checker(s[start], set))
 		start++;
 	end = start;
@@ -43,22 +46,10 @@ char *ft_strtrim(const char *s, char *set)
 		end--;
 	tab = (char *)malloc((end - start + 2));
 	if (!tab)
-		return(NULL);
-	while (end >= start)
-
+		return (NULL);
+	i = 0;
+	while (start <= end)
 		tab[i++] = s[start++];
-	tab[i] = 0;
+	tab[i] = '\0';
 	return (tab);
 }
-// int main()
-// {
-	
-// 	char src[] = "bziad";
-// 	char set[] = "ab";
-// 	char *res = ft_strtrim(src, set);
-// 	printf("%s", res);
-// }
-	
-	
-
-	

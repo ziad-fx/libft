@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 16:23:53 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/12 10:03:18 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/14 18:36:34 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char	*dst;
 	unsigned char	*src_cpy;
 	size_t			i;
-	
+
 	if (dest == src)
 		return (dest);
 	if (!dest && !src)

@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 20:35:06 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/12 10:23:41 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/16 16:40:19 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putendl_fd(char *s, int fd)
 	int	i;
 
 	i = 0;
-	if(!s)
+	if (!s)
 		return ;
 	while (s[i])
 	{
