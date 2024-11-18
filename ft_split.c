@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 14:44:46 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/17 21:42:38 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/18 11:32:07 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ static char	*fill_word(const char *s, int *i, char c)
 	return (res);
 }
 
-char	**ft_split(const char *str, char c)
+char	**ft_split(const char *s, char c)
 {
 	int		i;
 	int		word_index;
@@ -81,16 +81,16 @@ char	**ft_split(const char *str, char c)
 
 	i = 0;
 	word_index = 0;
-	if (!str)
+	if (!s)
 		return (NULL);
-	tab = malloc(sizeof(char *) * (count_words(str, c) + 1));
+	tab = malloc(sizeof(char *) * (count_words(s, c) + 1));
 	if (!tab)
 		return (NULL);
-	while (str[i])
+	while (s[i])
 	{
-		if (str[i] != c)
+		if (s[i] != c)
 		{
-			tab[word_index] = fill_word(str, &i, c);
+			tab[word_index] = fill_word(s, &i, c);
 			if (!tab[word_index])
 				return (freemyhomie(tab), tab = NULL, NULL);
 			word_index++;
