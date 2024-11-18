@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 14:44:46 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/16 18:54:46 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/17 21:42:38 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static int	count_len_word(const char *s, int start, char c)
 	return (len);
 }
 
-int	count_words(const char *s, char c)
+static int	count_words(const char *s, char c)
 {
 	int	count;
 	int	in_word;
@@ -92,7 +92,7 @@ char	**ft_split(const char *str, char c)
 		{
 			tab[word_index] = fill_word(str, &i, c);
 			if (!tab[word_index])
-				return (freemyhomie(tab), NULL);
+				return (freemyhomie(tab), tab = NULL, NULL);
 			word_index++;
 		}
 		else

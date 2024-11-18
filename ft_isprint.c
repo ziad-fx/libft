@@ -6,24 +6,15 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 22:22:54 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/02 14:36:04 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/17 21:36:30 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int    ft_isprint(int c)
+int	ft_isprint(int c)
 {
-
-    if (c >= 32 && c <= 126)
-        return (1);
-    return (0);
+	if (c >= 32 && c <= 126)
+		return (1);
+	return (0);
 }
-
-/*
-// int main()
-// {
-// 	char c[] = "hello";
-// 	printf("%d", ft_isprint('c'));
-// }
-*/

@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 16:14:52 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/16 12:10:20 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/17 21:45:03 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,10 @@
 
 char	*ft_strdup(const char *s1)
 {
-	char	*tab;
-	int		i;
-	int		len;
+	char		*tab;
+	size_t		i;
+	size_t		len;
 
-	if (s1 == NULL)
-		return (NULL);
 	len = ft_strlen(s1);
 	tab = (char *)malloc(len + 1);
 	if (!tab)

@@ -6,7 +6,7 @@
 /*   By: zyahansa <zyahansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 16:22:51 by zyahansa          #+#    #+#             */
-/*   Updated: 2024/11/16 16:05:01 by zyahansa         ###   ########.fr       */
+/*   Updated: 2024/11/17 16:07:47 by zyahansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
-	char	*tab;
-	int		i;
-	int		j;
-	int		len;
+	char		*tab;
+	size_t		i;
+	size_t		j;
+	size_t		len;
 
 	if (!s1 || !s2)
 		return (NULL);
